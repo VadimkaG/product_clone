@@ -1,0 +1,13 @@
+langcode: ru
+status: true
+dependencies:
+  module:
+    - product_clone
+    - commerce
+    - commerce_product
+    - entity
+id: clone_product_action
+label: 'Клонировать'
+type: commerce_product
+plugin: "clone_product_action"
+configuration: {  }

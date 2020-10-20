@@ -1,0 +1,12 @@
+name: Product Clone
+description: 'Клонирует commerce_product без бага с commerce_product_variation'
+core:  "8.x"
+core_version_requirement: ^8 || ^9
+type: module
+package: Clone
+
+dependencies:
+  - entity:entity
+  - commerce:commerce
+  - commerce:commerce_product
+  - drupal:system (>=8.6)
