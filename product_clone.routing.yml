@@ -1,0 +1,12 @@
+product_clone.clone:
+  path: '/product/{product}/clone'
+  defaults:
+    _title: 'Product clone'
+    _form: '\Drupal\product_clone\Form\ProductCloneForm'
+  requirements:
+    _custom_access: '\Drupal\product_clone\Form\ProductCloneForm::hasAccess'
+  options:
+    _admin_route: TRUE
+    parameters:
+      product:
+        type: entity:commerce_product

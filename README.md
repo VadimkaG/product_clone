@@ -1,21 +1,12 @@
-Drupal module
-
 Product clone
 -----------------
-
-ОГЛАВЛЕНИЕ
----------------------
-
- * Описание
- * Зависемости
- * Рекомендуемые модули
- * Установка
 
 ОПИСАНИЕ
 ------------
 
+Модуль для CMS Drupal 8
 Модуль предназначен для копирования товаров из модуля commerce. 
-Модуль призван устранить баг с компированием commmerce_product_variation
+Модуль призван устранить баг с копированием commmerce_product_variation
 
 ЗАВИСЕМОСТИ
 ------------
@@ -24,13 +15,6 @@ Product clone
   - Entity (https://www.drupal.org/project/entity)
   - Commerce (https://www.drupal.org/project/commerce)
   - Commerce product
-
-РЕКОМЕНДУЕМЫЕ МОДУЛИ
--------------------
-
-Markdown filter (https://www.drupal.org/project/markdown):
-При включении будет отображаться справка проекта README.md
-с уценкой.
 
 УСТАНОВКА
 ------------
